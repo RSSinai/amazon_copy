@@ -304,7 +304,7 @@ input {
 main {
   background-color: white;
   height: 1000px;
-  width: calc(100% - 450px);
+  width: calc(100% - 300px);
   margin: 0 auto;
 }
 
