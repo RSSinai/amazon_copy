@@ -1,0 +1,418 @@
+@font-face {
+  font-family: ember;
+  src: url(../font/Amazon\ Ember.ttf);
+}
+
+* {
+  margin: 0;
+  font-family: ember;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(./AMZN_BIG.D.svg);
+
+  width: 100%;
+  background-size: cover;
+}
+.border {
+  border: 2px solid transparent;
+  border-radius: 2px;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.addfirst {
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.addsecond {
+  font-size: 14px;
+  margin-left: 3px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.addicon {
+  display: flex;
+  align-items: center;
+}
+
+.border2:hover {
+  border: 1.5px solid white;
+  height: 50px;
+}
+
+.search1 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  background-color: rgb(255, 52, 52);
+  height: 40px;
+  width: 620px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 620px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  background-color: #ff8484;
+  margin-left: 15px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.search-option1 {
+  background-color: #f3f3f3;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-input {
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 156, 4, 0.849);
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.lanoption {
+  font-weight: bolder;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.languageoption {
+  height: 50px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+.american {
+  background-image: url(Images/america.webp);
+  background-size: cover;
+  height: 15px;
+  width: 20px;
+}
+
+.hello {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.account-sign {
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.return {
+  font-size: 12px;
+}
+
+.order {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart i {
+  font-size: 30px;
+}
+
+.cart {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+.second-nav {
+  height: 42px;
+  background-color: #222f3d;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.second-nav p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.allicon {
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  width: 58px;
+  height: 36px;
+}
+
+.list {
+  font-weight: 700;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.panel-ops {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.ptag {
+  margin-left: 15px;
+}
+.deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/*  */
+
+.top-part {
+  display: flex;
+}
+
+.gallery {
+  width: 30%;
+  height: 300px;
+  align-items: left;
+  justify-content: center;
+  height: 100vh;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.gallery-image-small {
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  margin: 10px;
+}
+
+.description {
+  width: 55%;
+  height: 300px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.gallery-image-big {
+  width: 15%;
+  height: 300px;
+  background-color: pink;
+}
+
+.shippment {
+  width: 15%;
+  height: fit-content;
+  background-color: white;
+  border: 1px rgb(15, 17, 17) solid;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.div-1 img {
+  width: 50px;
+  max-height: 50px;
+  border: 1px solid rgb(0, 113, 133);
+  border-radius: 5px;
+  margin: 5px;
+  object-fit: cover center/cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  height: 25px;
+}
+
+.element {
+  display: inline-block;
+}
+
+.element.grid-item {
+  width: 60%;
+  height: 90%;
+  position: absolute;
+  background-image: url(./9132d9G0eNL._AC_SX679_.jpg);
+  border: transparent;
+  border-radius: 0%;
+  background-size: cover;
+}
+
+main {
+  background-color: white;
+  height: 1000px;
+  width: calc(100% - 450px);
+  margin: 0 auto;
+}
+
+.description-prices {
+  display: flex;
+}
+.description-prices-item {
+  height: 45px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  width: 15%;
+  border: 1px #b12704 solid;
+  color: #b12704;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.container-decription {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 10px;
+}
+
+li{
+    margin-top: 8px;
+}
+
+hr
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.shippment-button
+{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+#buy-now.shippment-button
+{
+    background-color: #F8A41D;
+    border: 1px solid #F7980E;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#add2cart.shippment-button
+{
+    background-color: #FBD816;
+    border: 1px solid #FAD412;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.shippment-button-bottom
+{
+    background-color: white;
+    width: 100%;
+    border: 1px black solid;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.carousel-cell
+{
+    width: 15%;
+    height: 250px;
+    margin-right: 10px;
+    border-radius:15px ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-cell:before{
+    display: block;
+    content: '';
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+  }
