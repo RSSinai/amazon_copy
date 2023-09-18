@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: white;
+  height: 1000px;
+  width: calc(100% - 100px);
+  margin: 0 auto;
+}
+/* THIS IS FOR NAVIGATION BAR PART */
+
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -24,9 +32,9 @@
 }
 
 .logo {
-    margin-top: 10px;
+  margin-top: 10px;
   background: url(./img/AMZN_BIG.D.svg) no-repeat;
-height: 30px;
+  height: 30px;
   width: 100%;
   background-size: cover;
 }
@@ -218,6 +226,8 @@ input {
   display: flex;
 }
 
+/* THIS IS FOR GALLERY PART WITH TABS */
+
 .gallery {
   width: 30%;
   height: 300px;
@@ -249,6 +259,8 @@ input {
   height: 300px;
   background-color: pink;
 }
+
+/* THIS IS FOR RIGHT PART OF MAIN PAGE */
 
 .shippment {
   width: 15%;
@@ -301,12 +313,6 @@ input {
   background-size: cover;
 }
 
-main {
-  background-color: white;
-  height: 1000px;
-  width: calc(100% - 100px);
-  margin: 0 auto;
-}
 
 .description-prices {
   display: flex;
@@ -329,97 +335,90 @@ main {
   margin-bottom: 10px;
 }
 
-li{
-    margin-top: 8px;
+li {
+  margin-top: 8px;
 }
 
-hr
-{
-    margin-top: 15px;
-    margin-bottom: 15px;
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.shippment-button
-{
-    width: 100%;
-    margin-bottom: 5px;
-
+.shippment-button {
+  width: 100%;
+  margin-bottom: 5px;
 }
 
-#buy-now.shippment-button
-{
-    background-color: #F8A41D;
-    border: 1px solid #F7980E;
-    color: black;
-    padding: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 14px;
+#buy-now.shippment-button {
+  background-color: #f8a41d;
+  border: 1px solid #f7980e;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
-#add2cart.shippment-button
-{
-    background-color: #FBD816;
-    border: 1px solid #FAD412;
-    color: black;
-    padding: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 14px;
+#add2cart.shippment-button {
+  background-color: #fbd816;
+  border: 1px solid #fad412;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
-.shippment-button-bottom
-{
-    background-color: white;
-    width: 100%;
-    border: 1px black solid;
-    color: black;
-    padding: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 14px;
+.shippment-button-bottom {
+  background-color: white;
+  width: 100%;
+  border: 1px black solid;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
-.carousel-cell
-{
-    width: 15%;
-    height: 250px;
-    margin-right: 10px;
-    border-radius:15px ;
-    background-size: cover;
-    background-position: center center;
+/* THIS IS FOR CAROUSEL PART */
+
+.carousel-cell {
+  width: 15%;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
 }
 
-.carousel-cell:before{
-    display: block;
-    content: '';
+.carousel-cell:before {
+  display: block;
+  content: "";
 }
 
 div.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 50px;
-    font-size: 20px;
-  }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  font-size: 20px;
+}
 
-  .bottom-part
-  {
-    margin-top: 150px;
-  }
-
+.bottom-part {
+  margin-top: 150px;
+}
