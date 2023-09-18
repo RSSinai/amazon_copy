@@ -22,7 +22,7 @@ To deploy
 
 ## Screenshots
 
-![amazon frontpage](./img/Screenshot%202023-09-18%20at%209.48.36.png)
+![amazon frontpage](./)
 
 ## Team members
 

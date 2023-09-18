@@ -24,8 +24,9 @@
 }
 
 .logo {
-  background-image: url(./AMZN_BIG.D.svg);
-
+    margin-top: 10px;
+  background: url(./AMZN_BIG.D.svg) no-repeat;
+height: 30px;
   width: 100%;
   background-size: cover;
 }
@@ -251,7 +252,7 @@ input {
 
 .shippment {
   width: 15%;
-  height: fit-content;
+  height: 150%;
   background-color: white;
   border: 1px rgb(15, 17, 17) solid;
   border-radius: 8px;
@@ -311,7 +312,7 @@ main {
   display: flex;
 }
 .description-prices-item {
-  height: 45px;
+  height: 40px;
   margin-right: 10px;
   margin-top: 10px;
   font-size: 12px;
@@ -415,4 +416,9 @@ div.sticky {
     top: 0;
     padding: 50px;
     font-size: 20px;
+  }
+
+  .bottom-part
+  {
+    margin-top: 150px;
   }
