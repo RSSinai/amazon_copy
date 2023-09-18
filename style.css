@@ -25,7 +25,7 @@
 
 .logo {
     margin-top: 10px;
-  background: url(./AMZN_BIG.D.svg) no-repeat;
+  background: url(./img/AMZN_BIG.D.svg) no-repeat;
 height: 30px;
   width: 100%;
   background-size: cover;
@@ -295,7 +295,7 @@ input {
   width: 60%;
   height: 90%;
   position: absolute;
-  background-image: url(./9132d9G0eNL._AC_SX679_.jpg);
+  background-image: url(./img/9132d9G0eNL._AC_SX679_.jpg);
   border: transparent;
   border-radius: 0%;
   background-size: cover;
